@@ -137,7 +137,7 @@ namespace Northwind_API.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception or handle it appropriately
+            
                 return StatusCode(500, "An error occurred while processing the request.");
             }
         }
